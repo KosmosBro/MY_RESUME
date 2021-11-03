@@ -1,0 +1,59 @@
+@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css);
+
+
+body {
+  padding: 0;
+  margin: 0;
+  background-image: url(../img/back.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  font-family: "Patua One", cursive;
+}
+
+.card {
+  background-color: rgba(0, 0, 0, 0.6);
+  display: flex;
+  box-shadow: 0 0 7px #000;
+  padding: 5px;
+  border-radius: 3%;
+  border: 1px solid rgba(231, 231, 231, 0.125);
+  color: #dbd5d5;
+  margin-top: 7%;
+  width: 700px;
+}
+.card-header{
+    font-size: 2rem;
+    color: #1badb5; 
+}
+p{
+    font-size: 1rem;
+}
+.tab{
+    margin-left: 25px;
+}
+
+.social a {
+    text-align: center;
+    width: 48px;
+    height: 48px;
+    float: left;
+    background: #fff;
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.15), inset 0 0 50px rgba(0,0,0,0.1);
+    border-radius: 24px;
+    margin: 0 10px 10px 0;
+    padding: 6px;
+    color: #000;
+}
+.github a:hover {background: #191919; color: #fff;}
+.instagram a:hover {background: #3f729b; color: #fff;}  
+.instagram a:hover {
+    background: #cb3ea8;
+    color: #fff;
+}
+
+.sertificate_img{
+    width: 400px;
+}
