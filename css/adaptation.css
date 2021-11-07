@@ -17,11 +17,13 @@
     .blockquote {
       display: grid;
   }
-  .programmer__skills__container {
-    max-width: 340px;
-}
-.sertificate_img{
-  width: 250px;
+
+  .skills__container {
+    max-width: 375px;
+  }
+.row > * {
+  display: flex;
+  justify-content: center;
 }
   }
   @media screen and (max-width: 992px) {
@@ -29,16 +31,18 @@
       max-width: 750px;
     }
     .card{
-      max-width: 400px;
+      max-width: 700px;
     }
     .blockquote {
       display: grid;
   }
   .programmer__skills__container {
-    max-width: 350px;
+    max-width: 400px;
 }
-.sertificate_img{
-  width: 250px;
+
+.row > * {
+  display: flex;
+  justify-content: center;
 }
   }
   @media screen and (max-width: 533px) {
@@ -52,9 +56,14 @@
       display: grid;
   }
   .programmer__skills__container {
-    max-width: 340px;
+    max-width: 300px;
 }
-.sertificate_img{
-  width: 250px;
+.skills__container {
+  max-width: 310px;
+}
+
+.row > * {
+  display: flex;
+  justify-content: center;
 }
   }
